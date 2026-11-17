@@ -2,14 +2,26 @@
 <html lang="pl">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#161816" />
-    <meta name="description" content="Cubeling — prosty edytor modeli voxelowych 3D." />
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    <title>Cubeling — Voxel editor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="stylesheet" href="/src/style.css" />
+    <title>ESCE</title>
   </head>
   <body>
-    <div id="app"></div>
+    <header class="site-header">
+      <a class="site-name" href="/">ESCE</a>
+      <nav aria-label="Menu główne">
+        <ul class="header-items">
+          <li><a href="/about">O mnie</a></li>
+          <li><a href="/videos">Filmy</a></li>
+          <li><a href="/projects">Projekty</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/contact">Kontakt</a></li>
+          <li><a href="/tools">Narzędzia do gamedevu</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="app"></main>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
